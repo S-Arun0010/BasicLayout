@@ -1,0 +1,107 @@
+
+body
+{   
+    background-image: url("Background.jpg");
+    background-size: cover;   
+    background-repeat: no-repeat;    
+}
+.Continer
+{   
+    height: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.header
+{  
+     display: flex;
+     justify-content: center;
+    
+}
+.maincontent
+{
+   display: flex;
+   height: 50%;
+   align-items: center;
+}
+.leftcontent
+{  
+    height: 100%; 
+   flex-basis: 60%;
+}
+h1
+{ 
+    color: #000000;
+    font-size: 100px;
+    margin-bottom: 5px;
+}
+h2{
+    color: #000000;
+    font-size: 35px;
+}
+h5{
+    font-style: italic;
+    font-size: 18px;
+}
+p
+{
+    color:#fff;
+    font-size: 15px;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 20px;
+    width: 570px;
+      
+}
+#view
+{   
+    color: #07e2ff;
+    text-decoration: none;
+}
+#anchor
+{
+    color: #000000;
+}
+.rightcontent
+{
+    flex-basis: 40%;
+    
+}
+.picture
+{   
+    height:210px;
+    width: 180px;
+    margin:10px;
+    display:inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding:5px;
+
+}
+.picture:hover
+{
+    transform: scale(1.1,1.1);
+}
+.pic1
+{   
+    background-image: url(Chihuahuan.jpg);
+    background-position: center;
+   background-size: cover; 
+}
+.pic2
+{
+    background-image: url(Great\ \ Basin\ Desert.jpg);
+    background-position: center;
+   background-size: cover; 
+}
+.pic3
+{
+    background-image: url(Gobi\ Deserts.jpg);
+    background-position: center;
+   background-size: cover; 
+}
+.pic4
+{
+    background-image: url(Arabian\ Desert.jpg);
+    background-position: center;
+   background-size: cover; 
+}
